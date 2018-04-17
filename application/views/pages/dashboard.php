@@ -210,4 +210,9 @@
     </section>
     <!-- /.content -->
 
+<?php $this->load->view('templates/config/js_main')?>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?php echo base_url(); ?>assets/templates/js/pages/dashboard2.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url(); ?>assets/templates/js/demo.js"></script>
 <?php $this->load->view('templates/footer')?>
